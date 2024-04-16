@@ -1,0 +1,10 @@
+/* Footer css */
+footer {
+    font-size: 20px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, max-content);
+    justify-content: space-between;
+    border-top: solid 1px #333;
+    padding-top: 10px;
+}

@@ -1,0 +1,50 @@
+/* Home css */
+.wrap {
+    margin: 20px;
+    font-size: 16px;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.content__head {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.content__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.content__item {
+    width: calc(50% - 20px);
+    border: solid 1px #333;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content__item img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.content__item__title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #004eff;
+    margin-bottom: 10px;
+}
+
+.content__item:nth-child(2n) {
+    margin-left: 40px;
+}
+
+.content__item:nth-child(n + 3) {
+    margin-top: 40px;
+}
